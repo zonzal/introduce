@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+* {padding:0; margin:0; box-sizing:border-box;}	
+html,body 
+{
+    font:10pt/180% 'Noto Sans KR', sans-serif; 
+    letter-spacing: -0.2px; min-width:1300px;
+
+}
+html {scroll-behavior:smooth;}
+
+a {text-decoration:none;}
+ul {list-style:none;}
+
+/*------------------------상단메뉴-----------------------*/
+header
+{
+    background-color: gray;
+    overflow: hidden;
+    padding: 30px;
+}
+
+header>div
+{
+    width: 90%; display: block; margin: auto;
+}
+
+header>div,header ul {display:flex;}
+
+header>div>h1 {flex:1;}
+
+header h1,header a 
+{   color:white; font-weight:bold;
+    font-size:1.3rem;
+}
+
+header li {margin:0 12px;}
+
+header nav {margin-right:20px;}
+
+header li a:hover {color:#f77272;}
+/*------------------------상단메뉴-----------------------*/
+
+/*------------------------메인-----------------------*/
+main {width:1300px; display:block; margin:auto; height:100vh;}
+main>div {position:relative; border:1px solid #d3d3d3; margin-top:20px; padding-bottom:45px;}
+#man{text-align: center; padding:180px 0 50px 0;}
+main p {color: rgb(136, 134, 134); font-weight: bold; font-size: 1.5rem; margin: 30px;}
+main span {font-weight:normal;} 
+/*------------------------메인-----------------------*/
+
+
+
+
